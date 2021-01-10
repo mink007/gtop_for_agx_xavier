@@ -18,8 +18,8 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 ## Installation instruction
 ```
-https://github.com/martinkersner/gtop.git
-cd gtop
+https://github.com/mink007/gtop_for_agx_xavier.git
+cd gtop_for_agx_xavier
 make
 sudo ./gtop
 ```
