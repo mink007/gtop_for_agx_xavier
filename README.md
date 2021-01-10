@@ -3,7 +3,7 @@
 
 # gtop for Jetson AGX Xavier
 Mandeep Singh, 2021.
-Modified from Martin Kersner, <m.kersner@gmail.com>, 2017 gtop which is for TX1 & TX2.
+Modified from https://github.com/martinkersner/gtop, which is the original and for TX1 & TX2.
 
 ## Description
 `gtop` is CPU, GPU and memory viewer utilizing information provided by `tegrastats` (terminal utility for [NVIDIA<sup>&reg;</sup> JETSON<sup>&trade;</sup>](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html) embedded platform). It requires `ncurses` and its output resembles [`htop`](https://github.com/hishamhm/htop).
