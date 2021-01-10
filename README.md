@@ -1,17 +1,20 @@
 
 [![Build Status](https://travis-ci.org/martinkersner/gtop.svg?branch=master)](https://travis-ci.org/marmtinkersner/gtop)
 
-# gtop
-Martin Kersner, <m.kersner@gmail.com>, 2017
+# gtop for Jetson AGX Xavier
+Mandeep Singh, 2021.
+Modified from Martin Kersner, <m.kersner@gmail.com>, 2017 gtop which is for TX1 & TX2.
 
 ## Description
 `gtop` is CPU, GPU and memory viewer utilizing information provided by `tegrastats` (terminal utility for [NVIDIA<sup>&reg;</sup> JETSON<sup>&trade;</sup>](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html) embedded platform). It requires `ncurses` and its output resembles [`htop`](https://github.com/hishamhm/htop).
 
-<p align=center>
-<img src="http://i.imgur.com/oMHuVSX.png" align="center"/>
-</p>
+
+The GPU % utilization is not clear from tegrastats so just report the number after 'GR3D_FREQ' that appears in tegrastats.
+
+If CPU & GPU memory utilization can be figured out from the unified memory it will be great and can be added to this utility easily.
 
 ## Prerequisites
+
 ```
 sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
